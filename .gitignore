@@ -1,0 +1,8 @@
+# Local backups of the original single-file exports — not needed to run the site.
+# Kept on your machine as a safety net; not published.
+_backup/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log

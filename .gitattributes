@@ -1,0 +1,8 @@
+# Normalise text to LF; the editable page benefits from readable diffs.
+* text=auto eol=lf
+*.png binary
+*.woff2 binary
+
+# Preserve the exported case-study bundles byte-for-byte (no EOL munging).
+/neighborly.html -text
+/sarpanch-samvaad.html -text
